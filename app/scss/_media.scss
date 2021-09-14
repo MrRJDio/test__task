@@ -1,0 +1,76 @@
+@import "vars";
+
+
+/*==========  Desktop First  ==========*/
+@media only screen and (min-width : 1400px){
+
+}
+
+@media only screen and (max-width : 1428px){
+
+
+}
+
+@media only screen and (min-width : 576px) and (max-width : 952px){
+
+
+}
+
+@media only screen and (min-width : 1200px) and (max-width :  1366px){
+
+
+}
+
+//Extra large: ≥1200px
+@include media-breakpoint-down(xl) {
+
+}
+
+//Large: ≥992px
+@include media-breakpoint-down(lg) {
+
+}
+
+//Medium: ≥768px
+@include media-breakpoint-down(md) {
+
+}
+
+
+//Small: >576px
+@include media-breakpoint-down(sm) {
+
+}
+
+//Extra small: >0
+@include media-breakpoint-down(xs) {
+
+}
+
+
+/*==========  Mobile First  ==========*/
+
+//Extra small: <576px
+@include media-breakpoint-up(xs) {
+
+}
+
+//Small: ≤576px
+@include media-breakpoint-up(sm) {
+
+}
+
+//Medium: ≤768px
+@include media-breakpoint-up(md) {
+
+}
+
+//Large: ≤992px
+@include media-breakpoint-up(lg) {
+
+}
+
+//Extra large: ≤1200px
+@include media-breakpoint-up(xl) {
+
+}
